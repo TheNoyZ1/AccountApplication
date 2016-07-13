@@ -12,8 +12,7 @@ public:
 	void printAcctType();
 	void isValid();
 	void getNumOfAccts();
-	void setArrayNum();
-	// void printOutArray();
+	void printVector();
 	void arrayEntry();
 protected:
 
@@ -21,7 +20,5 @@ private:
 	// Private integers
 	int accountNumber;
 	int checkingSaving;
-
-	// Private array
-	int accounts[];
+	std::vector<int> accountStorage;
 };

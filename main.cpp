@@ -19,13 +19,10 @@ int main()
 		account.getAcctNum();
 		account.getCheckSaving();
 		account.isValid();
-		account.setArrayNum();
 		account.arrayEntry();
 	} while (*p_numOfAccts > 0);
 
-	// account.printAcctNum();
-	// account.printAcctType();
-	// account.printOutArray();
+	account.printVector();
 
 	system("PAUSE");
 	return 0;

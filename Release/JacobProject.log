@@ -1,11 +1,10 @@
-﻿  account.cpp
-c:\users\godbl\onedrive\documents\visual studio 2015\projects\accountapp_laptop\account.h(26): warning C4200: nonstandard extension used: zero-sized array in struct/union
-  c:\users\godbl\onedrive\documents\visual studio 2015\projects\accountapp_laptop\account.h(26): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-  Main.cpp
-c:\users\godbl\onedrive\documents\visual studio 2015\projects\accountapp_laptop\account.h(26): warning C4200: nonstandard extension used: zero-sized array in struct/union
-  c:\users\godbl\onedrive\documents\visual studio 2015\projects\accountapp_laptop\account.h(26): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+﻿  Main.cpp
+  account.cpp
+account.cpp(68): warning C4018: '<': signed/unsigned mismatch
   Generating code
-  All 17 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  14 of 92 functions (15.2%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   JacobProject.vcxproj -> C:\Users\godbl\OneDrive\Documents\Visual Studio 2015\Projects\AccountApp_Laptop\Release\JacobProject.exe
   JacobProject.vcxproj -> C:\Users\godbl\OneDrive\Documents\Visual Studio 2015\Projects\AccountApp_Laptop\Release\JacobProject.pdb (Full PDB)

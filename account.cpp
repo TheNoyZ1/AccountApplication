@@ -55,27 +55,18 @@ void Account::printAcctType()
 	}
 }
 
-// (5) sets the # of accounts to the number of storage units in the array 'accounts'
-void Account::setArrayNum()
-{
-	accounts[numOfAccts];
-}
-
-// (6) enters the account number entered by user into the appropriate array
+// (5) enters the account number entered by user into the appropriate array
 void Account::arrayEntry()
 {
-	for (int i = 0; i < numOfAccts; i++)
-	{
-		accounts[i] = accountNumber;
-	}
+	accountStorage.push_back(accountNumber);
+	numOfAccts--;
 }
 
-/* TESTING!! Prints out array to ensure that array is correctly initialized
-void Account::printOutArray()
+// prints out vector complete
+void Account::printVector()
 {
-	for (int i = 0; i < numOfAccts; i++)
+	for (int i = 0; i < accountStorage.size(); i++)
 	{
-		cout << "Account number " << i + 1 << " is " << accounts[i];
-		cout << endl;
+		cout << "Account number " << i + 1 << " is " << accountStorage.at(i) << endl << endl;
 	}
-} */
+}
