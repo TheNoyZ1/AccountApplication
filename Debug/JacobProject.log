@@ -1,0 +1,17 @@
+﻿  Main.cpp
+<<<<<<< HEAD
+c:\users\austinnoyes\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\austinnoyes\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Debug\JacobProject.exe
+  JacobProject.vcxproj -> C:\Users\austinnoyes\Documents\GitHub\AccountApp\Debug\JacobProject.pdb (Partial PDB)
+=======
+c:\users\jacob\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\jacob\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  account.cpp
+c:\users\jacob\documents\github\accountapp\account.h(25): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\jacob\documents\github\accountapp\account.h(25): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Generating Code...
+  LINK : C:\Users\Jacob\Documents\GitHub\AccountApp\Debug\JacobProject.exe not found or not built by the last incremental link; performing full link
+  JacobProject.vcxproj -> C:\Users\Jacob\Documents\GitHub\AccountApp\Debug\JacobProject.exe
+  JacobProject.vcxproj -> C:\Users\Jacob\Documents\GitHub\AccountApp\Debug\JacobProject.pdb (Partial PDB)
+>>>>>>> origin/master
